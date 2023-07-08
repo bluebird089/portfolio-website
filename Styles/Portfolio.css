@@ -20,7 +20,7 @@ nav {
 
 nav ul {
     display: flex;
-    align-items: centerJ;
+    align-items: center;
 }
 
 .website-title {
@@ -46,4 +46,9 @@ nav button {
     color: white;
     font-weight: 700;
     padding: 18px 35px;
+}
+
+/* This is for the headers */
+.header{
+    background-color: #fff8f3;
 }
