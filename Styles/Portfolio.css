@@ -39,7 +39,7 @@ nav a {
     font-weight: 400;
 }
 
-nav button {
+nav button, .btn-mia {
     border: 0;
     border-radius: 5px;
     font-size: 20px;
@@ -51,12 +51,29 @@ nav button {
 /* This is for the headers */
 .header{
     background-color: #fff8f3;
+    background-image: url(../images/header_bg.png);
+    background-repeat: no-repeat;
+    background-position: bottom right;
 }
 .banner{
     display: flex;
     align-items: center;
+    justify-content: space-between;
 }
 .banner img{
     width: 400px;
-
+}
+.banner-text{
+    max-width: 500px;
+}
+.banner-text h4{
+    font-size: 30px;
+    color: gray;
+}
+.banner-text h2{
+    font-size: 50px;
+}
+.banner-text p{
+    font-size: 20px;
+    color: gray;
 }
