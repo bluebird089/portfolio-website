@@ -52,3 +52,11 @@ nav button {
 .header{
     background-color: #fff8f3;
 }
+.banner{
+    display: flex;
+    align-items: center;
+}
+.banner img{
+    width: 400px;
+
+}
