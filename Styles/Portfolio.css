@@ -1,0 +1,8 @@
+/* Common Styles For All */
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+/* For Nav */
+nav{
+    display: flex;
+}
