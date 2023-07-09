@@ -45,15 +45,41 @@ nav a {
     text-decoration: none;
     color: #474747;
 }
-.header{
+
+.header {
     background-color: #fff8f3;
+    background-image: url(../images/header_bg.png);
+    background-repeat: no-repeat;
+    background-position: bottom right;
 }
+
 /* Banner Styles */
-.banner{
+.banner {
     padding: 0px 100px;
     display: flex;
     align-items: center;
 }
-.banner img{
+
+.banner img {
     width: 400px;
+}
+
+.banner-greet {
+    font-size: 25px;
+    margin-bottom: 0px;
+    color: #474747;
+}
+
+.banner-intro {
+    font-size: 65px;
+    font-weight: 700;
+    margin-top: 5px;
+    margin-bottom: 0px;
+}
+
+.banner-text p {
+    font-size: 15px;
+    margin-top: 5px;
+    margin-bottom: 20px;
+    color: #474747;
 }
