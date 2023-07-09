@@ -148,11 +148,40 @@ nav a {
 
 /* Resume Section */
 
-.resume{
-    
-}
+.resume {}
+
 /* My Resume Section */
-.colum-container{
+.colum-container {
     display: flex;
     margin: 0px 100px;
+}
+
+.details-title {
+    font-size: 20px;
+    font-weight: 700;
+    color: #474747;
+}
+
+.colum-title {
+    font-size: 25px;
+    font-weight: 700;
+    color: #474747;
+}
+
+.details {
+    margin: 10px 0px;
+}
+
+.colum {
+    padding: 15px;
+}
+
+.details-2nd-title {
+    color: #757575;
+    font-size: 18px;
+}
+
+.details-description {
+    color: #757575;
+    font-size: 15px;
 }
