@@ -148,8 +148,6 @@ nav a {
 
 /* Resume Section */
 
-.resume {}
-
 /* My Resume Section */
 .colum-container {
     display: flex;
@@ -177,11 +175,31 @@ nav a {
 }
 
 .details-2nd-title {
-    color: #757575;
+    color: #757575;.
     font-size: 18px;
 }
 
 .details-description {
     color: #757575;
     font-size: 15px;
+}
+
+.download-button {
+    display: flex;
+    justify-content: center;
+}
+
+.download-button button {
+    margin-top: 20px;
+}
+
+/* Footer Styles */
+
+.footer {
+    background-color: #fff8f3;
+    display: flex;
+    padding: 60px 100px;
+}
+.footer-column{
+    width: 50%;
 }
