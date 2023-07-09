@@ -106,20 +106,53 @@ nav a {
     text-align: center;
     font-size: 18px;
 }
-.about-info-container{
+
+.about-info-container {
     display: flex;
     justify-content: space-around;
 }
-.about-info{
+
+.about-info {
     text-align: center;
 }
+
 /* What I do section */
-.w-i-d{
+.w-i-d {
     margin: 60px 100px;
     padding: 0px 100px;
 }
-.skill-container{
+
+.skill-container {
     margin: 0px 100px;
     display: flex;
     justify-content: space-between;
+}
+
+.skills {
+    padding: 20px;
+    border-radius: 5px;
+    background: #FFF;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+    margin: 0px 10px;
+}
+
+.skill-title {
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.skill-description {
+    color: #757575;
+    font-size: 15px;
+}
+
+/* Resume Section */
+
+.resume{
+    
+}
+/* My Resume Section */
+.colum-container{
+    display: flex;
+    margin: 0px 100px;
 }
